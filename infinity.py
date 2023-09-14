@@ -8,7 +8,7 @@ buildFile = "app/build.gradle"
 apiFile = "app/src/main/java/ml/docilealligator/infinityforreddit/utils/APIUtils.java"
 stringFile = "app/src/main/res/values/strings.xml"
 
-with open(buildFile, "r") as input_file, open(buildFile+".tp", "w", newline='\r\n') as output_file:
+with open(buildFile, "r") as input_file, open(buildFile+".tp", "w") as output_file:
     for line in input_file:
         if "versionName " in line and version == "TBD":
             version = line.replace('"', '').replace("versionName", "").strip()
@@ -30,7 +30,7 @@ with open(buildFile, "r") as input_file, open(buildFile+".tp", "w", newline='\r\
         else:
             output_file.write(line)
 
-with open(apiFile, "r") as input_file, open(apiFile+".tp", "w", newline='\r\n') as output_file:
+with open(apiFile, "r") as input_file, open(apiFile+".tp", "w") as output_file:
     for line in input_file:
         if "public static final String CLIENT_ID = " in line:
             output_file.write('    public static final String CLIENT_ID = "'+apiKey+'";' + "\n")
@@ -41,7 +41,7 @@ with open(apiFile, "r") as input_file, open(apiFile+".tp", "w", newline='\r\n') 
         else:
             output_file.write(line)
 
-with open(stringFile, "r", encoding="utf8") as input_file, open(stringFile+".tp", "w", newline='\r\n', encoding="utf8") as output_file:
+with open(stringFile, "r", encoding="utf8") as input_file, open(stringFile+".tp", "w", encoding="utf8") as output_file:
     for line in input_file:
         if '<string name="application_name"' in line:
             output_file.write(line.replace("Infinity", "Reddit (Infinity)"))
