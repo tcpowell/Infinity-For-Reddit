@@ -2,7 +2,7 @@ import os
 
 username = input("Enter username: ")
 apiKey = input("Enter API key: ")
-version = "TBD"
+version = input("Enter Version: ")
 
 buildFile = "app/build.gradle"
 apiFile = "app/src/main/java/ml/docilealligator/infinityforreddit/utils/APIUtils.java"
