@@ -23,7 +23,6 @@ public class APIUtils {
     public static final String IMGUR_API_BASE_URI = "https://api.imgur.com/3/";
     public static final String PUSHSHIFT_API_BASE_URI = "https://api.pushshift.io/";
     public static final String REVEDDIT_API_BASE_URI = "https://api.reveddit.com/";
-    public static final String STRAPI_BASE_URI = "https://strapi.reddit.com";
     public static final String STREAMABLE_API_BASE_URI = "https://api.streamable.com";
 
     public static final String CLIENT_ID_KEY = "client_id";
@@ -114,11 +113,6 @@ public class APIUtils {
     public static final String REVEDDIT_ORIGIN = "https://www.reveddit.com";
     public static final String REFERER_KEY = "Referer";
     public static final String REVEDDIT_REFERER = "https://www.reveddit.com/";
-
-    /*public static final String HOST_KEY = "Host";
-    public static final String REDGIFS_HOST = "api.redgifs.com";
-    public static final String CONTENT_TYPE_KEY = "Content-Type";
-    public static final String */
 
     public static Map<String, String> getHttpBasicAuthHeader() {
         Map<String, String> params = new HashMap<>();
