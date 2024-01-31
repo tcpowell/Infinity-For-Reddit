@@ -67,6 +67,9 @@ public class CustomizeThemeActivity extends BaseActivity {
     @Named("default")
     SharedPreferences sharedPreferences;
     @Inject
+    @Named("current_account")
+    SharedPreferences mCurrentAccountSharedPreferences;
+    @Inject
     @Named("light_theme")
     SharedPreferences lightThemeSharedPreferences;
     @Inject
@@ -245,12 +248,17 @@ public class CustomizeThemeActivity extends BaseActivity {
     }
 
     @Override
-    protected SharedPreferences getDefaultSharedPreferences() {
+    public SharedPreferences getDefaultSharedPreferences() {
         return sharedPreferences;
     }
 
     @Override
-    protected CustomThemeWrapper getCustomThemeWrapper() {
+    public SharedPreferences getCurrentAccountSharedPreferences() {
+        return mCurrentAccountSharedPreferences;
+    }
+
+    @Override
+    public CustomThemeWrapper getCustomThemeWrapper() {
         return customThemeWrapper;
     }
 

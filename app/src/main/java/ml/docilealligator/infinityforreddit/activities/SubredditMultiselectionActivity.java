@@ -83,7 +83,6 @@ public class SubredditMultiselectionActivity extends BaseActivity implements Act
     @Inject
     CustomThemeWrapper mCustomThemeWrapper;
     public SubscribedSubredditViewModel mSubscribedSubredditViewModel;
-    private String mAccountName;
     private LinearLayoutManagerBugFixed mLinearLayoutManager;
     private SubredditMultiselectionRecyclerViewAdapter mAdapter;
     private RequestManager mGlide;
@@ -131,8 +130,6 @@ public class SubredditMultiselectionActivity extends BaseActivity implements Act
 
         mSwipeRefreshLayout.setEnabled(false);
 
-        mAccountName = mCurrentAccountSharedPreferences.getString(SharedPreferencesUtils.ACCOUNT_NAME, "-");
-
         bindView();
     }
 
@@ -143,7 +140,7 @@ public class SubredditMultiselectionActivity extends BaseActivity implements Act
         mRecyclerView.setAdapter(mAdapter);
 
         mSubscribedSubredditViewModel = new ViewModelProvider(this,
-                new SubscribedSubredditViewModel.Factory(getApplication(), mRedditDataRoomDatabase, mAccountName))
+                new SubscribedSubredditViewModel.Factory(getApplication(), mRedditDataRoomDatabase, accountName))
                 .get(SubscribedSubredditViewModel.class);
         mSubscribedSubredditViewModel.getAllSubscribedSubreddits().observe(this, subscribedSubredditData -> {
             mSwipeRefreshLayout.setRefreshing(false);
@@ -220,7 +217,12 @@ public class SubredditMultiselectionActivity extends BaseActivity implements Act
     }
 
     @Override
-    protected CustomThemeWrapper getCustomThemeWrapper() {
+    public SharedPreferences getCurrentAccountSharedPreferences() {
+        return mCurrentAccountSharedPreferences;
+    }
+
+    @Override
+    public CustomThemeWrapper getCustomThemeWrapper() {
         return mCustomThemeWrapper;
     }
 

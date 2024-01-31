@@ -70,7 +70,6 @@
     <string name="action_share">"Compartilhar"</string>
     <string name="action_preview">"Prévia"</string>
     <string name="action_report">"Reportar"</string>
-    <string name="action_see_removed">"Ver excluído"</string>
     <string name="action_set_wallpaper">"Definir como papel de parede"</string>
     <string name="action_send_private_message">"Enviar mensagem privada"</string>
     <string name="parse_json_response_error">"Erro ao analisar a resposta do JSON"</string>
@@ -124,7 +123,6 @@ Toque para tentar de novo."</string>
     <string name="downvoted">"Votado contra"</string>
     <string name="hidden">"Oculto"</string>
     <string name="saved">"Salvo"</string>
-    <string name="gilded">"Premiações"</string>
     <string name="settings">"Ajustes"</string>
     <string name="subscribers_number_detail">"Inscritos: %1$,d"</string>
     <string name="online_subscribers_number_detail">"Online: %1$,d"</string>
@@ -267,11 +265,6 @@ Toque para tentar de novo."</string>
     <string name="are_you_sure">"Tem certeza?"</string>
     <string name="edit">"Editar"</string>
     <string name="delete">"Excluir"</string>
-    <string name="see_removed_comment">"Ver comentário excluído"</string>
-    <string name="fetching_removed_comment">"Buscando comentário excluído"</string>
-    <string name="show_removed_comment_failed">"Não pôde achar o comentário excluído"</string>
-    <string name="fetching_removed_post">"Buscando postagem excluída"</string>
-    <string name="show_removed_post_failed">"Não pôde achar a postagem excluída"</string>
     <string name="cancel">"Cancelar"</string>
     <string name="ok">"Ok"</string>
     <string name="edit_success">"Êxito ao editar"</string>
@@ -334,7 +327,6 @@ Toque para tentar de novo."</string>
     <string name="settings_volume_keys_navigate_posts_title">"Usar as teclas de volume para navegar em posagens"</string>
     <string name="settings_mute_video_title">"Silenciar Vídeos"</string>
     <string name="settings_mute_nsfw_video_title">"Silenciar Vídeos NSFW"</string>
-    <string name="settings_automatically_try_redgifs_title">"Tentar acessar automaticamente o Redgifs se os vídeos do Gfycat forem excluídos."</string>
     <string name="settings_video_player_ignore_nav_bar_title">"Ignorar barra de navegação no reprodutor de vídeos"</string>
     <string name="settings_video_player_ignore_nav_bar_summary">"Evitar que o Controle de Vídeo Tenha Margens Largas"</string>
     <string name="settings_confirm_to_exit">"Confirmar para Sair"</string>
@@ -381,8 +373,6 @@ Toque para tentar de novo."</string>
     <string name="settings_credits_icon_background_summary">"Vetor de fundo criado por Freepik - www.freepik.com"</string>
     <string name="settings_credits_error_image_title">"Erro na imagem"</string>
     <string name="settings_credits_error_image_summary">"Vetor de tecnologia criado por Freepik - www.freepik.com"</string>
-    <string name="settings_credits_gilded_icon_title">"Ícone de Prêmio"</string>
-    <string name="settings_credits_gilded_icon_summary">"Ícone feito por Freepik - www.flaticon.com"</string>
     <string name="settings_credits_crosspost_icon_title">"Ícone da postagem cruzada"</string>
     <string name="settings_credits_crosspost_icon_summary">"Ícone feito por Freepik - www.flaticon.com"</string>
     <string name="settings_credits_thumbtack_icon_title">"Ícone do Thumbtack"</string>
@@ -732,8 +722,6 @@ Baseado no tema Índigo AMOLED"</string>
 Ela não está doente ou algo assim, mas definitivamente poderia melhorar."</string>
     <string name="edit_multi_reddit">"Editar Multireddit"</string>
     <string name="delete_multi_reddit">"Excluir Multireddit"</string>
-    <string name="n_awards">"%1$,d prêmios"</string>
-    <string name="one_award">"1 Prêmio"</string>
     <string name="report">"Reportar"</string>
     <string name="reporting">"Reportando"</string>
     <string name="report_successful">"Reportado"</string>
@@ -748,7 +736,6 @@ Ela não está doente ou algo assim, mas definitivamente poderia melhorar."</str
     <string name="notifications">"Notificações"</string>
     <string name="messages">"Mensagens"</string>
     <string name="message">"Mensagem"</string>
-    <string name="fetch_gfycat_video_failed">"Erro ao buscar vídeos do Gfycat"</string>
     <string name="fetch_redgifs_video_failed">"Erro ao buscar vídeos do Redgifs"</string>
     <string name="fetching_video_info_please_wait">"Obtendo informações do vídeo. Por favor, espere."</string>
     <string name="error_fetching_imgur_media">"Não pode carregar as imagens"</string>
@@ -844,14 +831,8 @@ A reprodução automática de vídeos fica desativada."</string>
     <string name="refresh">"Atualizar"</string>
     <string name="change_sort_type">"Mudar modo de ordenação"</string>
     <string name="change_post_layout">"Mudar estrutura da postagem"</string>
-    <string name="give_award_dialog_title">"Dar prêmio?"</string>
-    <string name="anonymous">"Anônimo"</string>
 
     <!-- Fuzzy -->
-    <string name="give_award_error_message">"Código: %1$,d/
-Mensagem: %2$s"</string>
-    <string name="give_award_success">"Prêmio concedido"</string>
-    <string name="give_award_failed">"Falhou"</string>
     <string name="warning">"Aviso"</string>
     <string name="this_is_a_nsfw_subreddit">"Este é um subreddit NSFW."</string>
     <string name="this_user_has_nsfw_content">"Este usuário tem conteúdo NSFW"</string>
@@ -944,7 +925,7 @@ Mensagem: %2$s"</string>
     <string name="post_filter_requires_a_name">"Qual é o nome deste filtro de postagem?"</string>
     <string name="duplicate_post_filter_dialog_title">"'%1$s' já existe"</string>
     <string name="duplicate_post_filter_dialog_message">"Substituir isto?"</string>
-    <string name="apply_post_filter_to">"Aplicar a"</string>
+    <string name="apply_to">"Aplicar a"</string>
     <string name="post_filter_usage_home">"Início"</string>
     <string name="post_filter_usage_subreddit">"Subreddit: %1$s"</string>
     <string name="post_filter_usage_subreddit_all">"Subreddit"</string>
@@ -964,7 +945,6 @@ Mensagem: %2$s"</string>
     <string name="choose_a_user">"Escolha um usuário"</string>
     <string name="settings_click_to_show_media_in_gallery_layout">"Clicar para exibir mídia na estrutura de galeria"</string>
     <string name="settings_hide_post_type">"Ocultar tipo de postagem"</string>
-    <string name="settings_hide_the_number_of_awards">"Ocultar o Número de Prêmios"</string>
     <string name="settings_hide_subreddit_and_user_prefix">"Ocultar prefixos do subreddit e do usuário"</string>
     <string name="settings_hide_the_number_of_votes">"Ocultar o número de votos"</string>
     <string name="settings_hide_the_number_of_comments">"Ocultar o Número de Comentários"</string>
@@ -1199,7 +1179,6 @@ Toque para tentar de novo."</string>
     <string name="settings_custom_content_font_family_title">"Família da fonte de conteúdo customizada"</string>
     <string name="settings_fixed_height_preview_in_card_title">"Altura fixa em cartão"</string>
     <string name="settings_hide_text_post_content">"Ocultar texto do conteúdo da postagem"</string>
-    <string name="settings_hide_comment_awards_title">"Ocultar prêmios de comentário"</string>
     <string name="settings_show_fewer_toolbar_options_threshold_title">"Exibir menos opções na barra de ferramentas a partir de"</string>
 
     <!-- Fuzzy -->

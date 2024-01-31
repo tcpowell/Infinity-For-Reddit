@@ -64,7 +64,6 @@
     <string name="action_share">"பகிர்"</string>
     <string name="action_preview">"முன்னோட்டம்"</string>
     <string name="action_report">"புகாரளி"</string>
-    <string name="action_see_removed">"நீக்கியவற்றைப் பார்"</string>
     <string name="action_set_wallpaper">"சுவரொட்டியாக அமை"</string>
     <string name="action_send_private_message">"தனித் தகவல் அனுப்பு"</string>
     <string name="parse_json_response_error">"JSON பதிலைக் கூறாக்கும்போது பிழை ஏற்பட்டது"</string>
@@ -107,7 +106,6 @@
     <!-- Fuzzy -->
     <string name="karma_info_user_detail">"கர்மம்:
 %1$d (%2$d + %3$d)"</string>
-    <string name="cakeday_info">"https://crowdin.com/"</string>
     <string name="profile">"சுயவிவரம்"</string>
     <string name="subscriptions">"குழுசேர்வுகள்"</string>
     <string name="multi_reddit">"பல்ரெட்டிட்"</string>
@@ -260,11 +258,6 @@
     <string name="are_you_sure">"நீங்கள் உறுதியா?"</string>
     <string name="edit">"திருத்து"</string>
     <string name="delete">"அழி"</string>
-    <string name="see_removed_comment">"நீக்கப்பட்ட கருத்தைப் பார்"</string>
-    <string name="fetching_removed_comment">"நீக்கப்பட்ட கருத்தைப் பெறுகிறது"</string>
-    <string name="show_removed_comment_failed">"நீக்கப்பட்ட கருத்தைக் கண்டறிய முடியவில்லை"</string>
-    <string name="fetching_removed_post">"நீக்கப்பட்ட இடுகையைப் பெறுகிறது"</string>
-    <string name="show_removed_post_failed">"நீக்கப்பட்ட இடுகையைப் பெற முடியவில்லை"</string>
     <string name="cancel">"ரத்துசெய்"</string>
     <string name="ok">"சரி"</string>
     <string name="edit_success">"திருத்தம் வெற்றி"</string>
@@ -523,8 +516,6 @@
     <string name="delete_multi_reddit">"பல்ரெட்டிட்டை அழி"</string>
 
     <!-- Fuzzy -->
-    <string name="n_awards">"%1$d விருதுகள்"</string>
-    <string name="one_award">"1 விருது"</string>
     <string name="report">"புகாரளி"</string>
     <string name="reporting">"புகாரளிக்கிறது"</string>
     <string name="report_successful">"புகாரளிக்கப்பட்டது"</string>
@@ -593,10 +584,6 @@
     <string name="refresh">"புத்துணர்வூட்டு"</string>
     <string name="change_sort_type">"வகைப்படுத்தல் வகையை மாற்று"</string>
     <string name="change_post_layout">"இடுகை தளவமைப்பை மாற்று"</string>
-    <string name="give_award_dialog_title">"விருதளிக்கவா?"</string>
-    <string name="anonymous">"அநாமதேய"</string>
-    <string name="give_award_success">"விருது அளிக்கப்பட்டது"</string>
-    <string name="give_award_failed">"தோல்வியுற்றது"</string>
     <string name="warning">"எச்சரிக்கை"</string>
     <string name="this_is_a_nsfw_subreddit">"இது ஓர் NSFW துணைரெட்டிட்."</string>
     <string name="this_user_has_nsfw_content">"இப்பயனர் NSFW உள்ளடக்கம் கொண்டுள்ளார்"</string>
@@ -661,7 +648,6 @@
     <string name="read_all_messages_failed">"எல்லா தகவல்களையும் வாசிக்க இயலவில்லை"</string>
     <string name="choose_a_user">"பயனரைத் தெரிவுசெய்"</string>
     <string name="settings_hide_post_type">"இடுகை வகையை மறை"</string>
-    <string name="settings_hide_the_number_of_awards">"விருது எண்ணிக்கையை மறை"</string>
     <string name="settings_hide_the_number_of_votes">"வாக்கெண்ணிக்கையை மறை"</string>
     <string name="settings_hide_the_number_of_comments">"கருத்தெண்ணிக்கையை மறை"</string>
     <string name="post_layout_gallery">"காட்சியக தளவமைப்பு"</string>

@@ -34,6 +34,9 @@ public class FetchRandomSubredditOrPostActivity extends BaseActivity {
     @Named("default")
     SharedPreferences mSharedPreferences;
     @Inject
+    @Named("current_account")
+    SharedPreferences mCurrentAccountSharedPreferences;
+    @Inject
     CustomThemeWrapper mCustomThemeWrapper;
     @Inject
     Executor mExecutor;
@@ -49,7 +52,8 @@ public class FetchRandomSubredditOrPostActivity extends BaseActivity {
 
         int option = getIntent().getIntExtra(EXTRA_RANDOM_OPTION, RandomBottomSheetFragment.RANDOM_SUBREDDIT);
 
-        FetchPost.fetchRandomPost(mExecutor, new Handler(), mRetrofit, option == RandomBottomSheetFragment.RANDOM_NSFW_SUBREDDIT
+        FetchPost.fetchRandomPost(mExecutor, new Handler(), mRetrofit,
+                option == RandomBottomSheetFragment.RANDOM_NSFW_SUBREDDIT
                 || option == RandomBottomSheetFragment.RANDOM_NSFW_POST, new FetchPost.FetchRandomPostListener() {
             @Override
             public void fetchRandomPostSuccess(String postId, String subredditName) {
@@ -89,12 +93,17 @@ public class FetchRandomSubredditOrPostActivity extends BaseActivity {
     }
 
     @Override
-    protected SharedPreferences getDefaultSharedPreferences() {
+    public SharedPreferences getDefaultSharedPreferences() {
         return mSharedPreferences;
     }
 
     @Override
-    protected CustomThemeWrapper getCustomThemeWrapper() {
+    public SharedPreferences getCurrentAccountSharedPreferences() {
+        return mCurrentAccountSharedPreferences;
+    }
+
+    @Override
+    public CustomThemeWrapper getCustomThemeWrapper() {
         return mCustomThemeWrapper;
     }
 

@@ -68,7 +68,6 @@
     <string name="action_share">"Chia sẻ"</string>
     <string name="action_preview">"Xem trước"</string>
     <string name="action_report">"Báo cáo"</string>
-    <string name="action_see_removed">"Xem bài đăng đã bị xóa"</string>
     <string name="action_set_wallpaper">"Đặt làm hình nền"</string>
     <string name="action_send_private_message">"Gửi tin nhắn riêng tư"</string>
     <string name="parse_json_response_error">"Lỗi khi phân tích phản hồi JSON"</string>
@@ -116,7 +115,6 @@
     <string name="downvoted">"Không thích"</string>
     <string name="hidden">"Ẩn"</string>
     <string name="saved">"Lưu"</string>
-    <string name="gilded">"Mạ vàng"</string>
     <string name="settings">"Cài đặt"</string>
 
     <!-- Fuzzy -->
@@ -272,11 +270,6 @@ Nhấn để thử lại."</string>
     <string name="are_you_sure">"Bạn có chắc không?"</string>
     <string name="edit">"Sửa"</string>
     <string name="delete">"Xóa"</string>
-    <string name="see_removed_comment">"Xem bình luận bị xóa"</string>
-    <string name="fetching_removed_comment">"Đang tìm bình luận bị xóa"</string>
-    <string name="show_removed_comment_failed">"Không thể tìm được bình luận bị xóa"</string>
-    <string name="fetching_removed_post">"Đang tìm bài đăng bị xóa"</string>
-    <string name="show_removed_post_failed">"Không thể tìm được bài đăng bị xóa"</string>
     <string name="cancel">"Hủy"</string>
     <string name="ok">"OK"</string>
 
@@ -351,7 +344,6 @@ Nhấn để thử lại."</string>
     <string name="settings_mute_nsfw_video_title">"Tắt tiếng video NSFW"</string>
 
     <!-- Fuzzy -->
-    <string name="settings_automatically_try_redgifs_title">"Tự động thử truy cập Redgifs nếu Video trên Gfycat bị xóa."</string>
     <string name="settings_video_player_ignore_nav_bar_title">"Bỏ qua thanh điều hướng trong trình phát video"</string>
     <string name="settings_video_player_ignore_nav_bar_summary">"Ngăn trình điều khiển video có thêm lề"</string>
     <string name="settings_confirm_to_exit">"Xác nhận để thoát"</string>
@@ -398,8 +390,6 @@ Nhấn để thử lại."</string>
     <string name="settings_credits_icon_background_summary">"Véc tơ nền được tạo bởi freepik - www.freepik.com"</string>
     <string name="settings_credits_error_image_title">"Hình ảnh lỗi"</string>
     <string name="settings_credits_error_image_summary">"Véc tơ công nghệ được tạo bởi freepik - www.freepik.com"</string>
-    <string name="settings_credits_gilded_icon_title">"Biểu tượng mạ vàng"</string>
-    <string name="settings_credits_gilded_icon_summary">"Biểu tượng được tạo bởi Freepik từ www.flaticon.com"</string>
     <string name="settings_credits_crosspost_icon_title">"Biểu tượng bài đăng chéo"</string>
     <string name="settings_credits_crosspost_icon_summary">"Biểu tượng được tạo bởi Freepik từ www.flaticon.com"</string>
     <string name="settings_credits_thumbtack_icon_title">"Biểu tượng đinh ghim"</string>
@@ -755,8 +745,6 @@ Cô ta không ốm hay gì cả, nhưng cô ấy chắc chắn có thể khá h�
     <string name="delete_multi_reddit">"Xoá Multireddit"</string>
 
     <!-- Fuzzy -->
-    <string name="n_awards">"%1$d giải thưởng"</string>
-    <string name="one_award">"1 giải thưởng"</string>
     <string name="report">"Báo cáo"</string>
     <string name="reporting">"Đang báo cáo"</string>
     <string name="report_successful">"Đã báo cáo"</string>
@@ -771,7 +759,6 @@ Cô ta không ốm hay gì cả, nhưng cô ấy chắc chắn có thể khá h�
     <string name="notifications">"Thông báo"</string>
     <string name="messages">"Tin nhắn"</string>
     <string name="message">"Tin nhắn"</string>
-    <string name="fetch_gfycat_video_failed">"Lấy video Gfycat thất bại"</string>
     <string name="fetch_redgifs_video_failed">"Lấy video Redgifs thất bại"</string>
     <string name="fetching_video_info_please_wait">"Đang lấy thông tin video. Vui lòng đợi."</string>
     <string name="error_fetching_imgur_media">"Không thể tải hình ảnh"</string>
@@ -867,14 +854,8 @@ Tự động phát video bị tắt."</string>
     <string name="refresh">"Làm mới"</string>
     <string name="change_sort_type">"Thay đổi loại sắp xếp"</string>
     <string name="change_post_layout">"Thay đổi bố cục bài đăng"</string>
-    <string name="give_award_dialog_title">"Cho giải thưởng?"</string>
-    <string name="anonymous">"Vô danh"</string>
 
     <!-- Fuzzy -->
-    <string name="give_award_error_message">"Mã: %1$d/
-Thông báo: %2$s"</string>
-    <string name="give_award_success">"Giải thưởng đã được cho"</string>
-    <string name="give_award_failed">"Thất bại"</string>
     <string name="warning">"Cảnh báo"</string>
     <string name="this_is_a_nsfw_subreddit">"Đây là một subreddit NSFW."</string>
     <string name="this_user_has_nsfw_content">"Người dùng này có nội dung NSFW"</string>
@@ -967,7 +948,7 @@ Thông báo: %2$s"</string>
     <string name="post_filter_requires_a_name">"Bộ lọc bài đăng này tên là gì?"</string>
     <string name="duplicate_post_filter_dialog_title">"'%1$s' đã tồn tại"</string>
     <string name="duplicate_post_filter_dialog_message">"Ghi đè nó?"</string>
-    <string name="apply_post_filter_to">"Áp dụng vào"</string>
+    <string name="apply_to">"Áp dụng vào"</string>
     <string name="post_filter_usage_home">"Trang chủ"</string>
     <string name="post_filter_usage_subreddit">"Subreddit: %1$s"</string>
     <string name="post_filter_usage_subreddit_all">"Subreddit"</string>
@@ -987,7 +968,6 @@ Thông báo: %2$s"</string>
     <string name="choose_a_user">"Chọn người dùng"</string>
     <string name="settings_click_to_show_media_in_gallery_layout">"Nhấn để hiện phương tiện trong bố cục thư viện"</string>
     <string name="settings_hide_post_type">"Ẩn loại bài đăng"</string>
-    <string name="settings_hide_the_number_of_awards">"Ẩn số lượng giải thưởng"</string>
     <string name="settings_hide_subreddit_and_user_prefix">"Ẩn subreddit và tiền tố người dùng"</string>
     <string name="settings_hide_the_number_of_votes">"Ẩn số lượng vote"</string>
     <string name="settings_hide_the_number_of_comments">"Ẩn số lượng bình luận"</string>
@@ -1213,11 +1193,11 @@ Nhấn để thử lại."</string>
     <string name="message_remove_avatar_success">"Xoá ảnh đại diện thành công"</string>
     <string name="message_remove_avatar_failed">"Xoá ảnh đại diện %s thất bại"</string>
     <string name="message_remove_banner_success">"Xoá banner thành công"</string>
-    <string name="message_remove_banner_failed">"Gỡ bỏ banner thất bại"</string>
+    <string name="message_remove_banner_failed">Gỡ bỏ banner thất bại %s</string>
     <string name="message_change_avatar_success">"Thay đổi ảnh đại diện thành công"</string>
-    <string name="message_change_avatar_failed">"Thay đổi ảnh đại diện thất bại"</string>
+    <string name="message_change_avatar_failed">Thay đổi ảnh đại diện thất bại %s</string>
     <string name="message_change_banner_success">"Thay đổi banner thành công"</string>
-    <string name="message_change_banner_failed">"Thay đổi banner thất bại"</string>
+    <string name="message_change_banner_failed">Thay đổi banner thất bại %s</string>
     <string name="message_save_profile_success">"Lưu Hồ sơ thành công"</string>
-    <string name="message_save_profile_failed">"Lưu hồ sơ %s thất bại"</string>
+    <string name="message_save_profile_failed">Lưu hồ sơ %s thất bại</string>
 </resources>

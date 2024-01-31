@@ -72,7 +72,6 @@
     <string name="action_share">"共有"</string>
     <string name="action_preview">"プレビュー"</string>
     <string name="action_report">"通報"</string>
-    <string name="action_see_removed">"削除済みを見る"</string>
     <string name="action_set_wallpaper">"壁紙に設定"</string>
     <string name="action_send_private_message">"個人メッセージを送信"</string>
     <string name="parse_json_response_error">"JSONの解析中にエラーが発生しました"</string>
@@ -135,7 +134,6 @@
     <!-- What posts the app shows when I select this?
 (1) My posts that someone gave (gold or better only?) rewards for me.
 (2) Someone's posts that I gave (gold or better only?) rewards for them. -->
-    <string name="gilded">"アワードを贈った投稿"</string>
     <string name="settings">"設定"</string>
 
     <!-- Fuzzy -->
@@ -299,11 +297,6 @@
     <string name="are_you_sure">"よろしいですか？"</string>
     <string name="edit">"編集"</string>
     <string name="delete">"削除"</string>
-    <string name="see_removed_comment">"削除済みのコメントを表示"</string>
-    <string name="fetching_removed_comment">"削除済みのコメントを取得中です"</string>
-    <string name="show_removed_comment_failed">"削除済みのコメントを取得できませんでした"</string>
-    <string name="fetching_removed_post">"削除済みの投稿を取得中です"</string>
-    <string name="show_removed_post_failed">"削除済みの投稿を取得できませんでした"</string>
     <string name="cancel">"キャンセル"</string>
     <string name="ok">"OK"</string>
 
@@ -384,7 +377,6 @@
     <string name="settings_mute_nsfw_video_title">"NSFWの動画をミュート再生"</string>
 
     <!-- Fuzzy -->
-    <string name="settings_automatically_try_redgifs_title">"Gfycatの動画が削除されていた場合、自動的にRedgifsでリトライ"</string>
     <string name="settings_video_player_ignore_nav_bar_title">"動画プレーヤーでナビゲーションバーを無視"</string>
     <string name="settings_video_player_ignore_nav_bar_summary">"動画コントローラーが余分な余白を使用することを防止します"</string>
     <string name="settings_confirm_to_exit">"アプリの終了確認を表示"</string>
@@ -441,8 +433,6 @@
     <string name="settings_credits_icon_background_summary">"freepikにより作成されたBackground vectorを使用しています - www.freepik.com"</string>
     <string name="settings_credits_error_image_title">"エラー時の画像"</string>
     <string name="settings_credits_error_image_summary">"freepikにより作成されたTechnology vectorを使用しています - www.freepik.com"</string>
-    <string name="settings_credits_gilded_icon_title">"アワードアイコン"</string>
-    <string name="settings_credits_gilded_icon_summary">"Freepikにより作成されたアイコンを使用しています - www.flaticon.com"</string>
     <string name="settings_credits_crosspost_icon_title">"クロスポストアイコン"</string>
     <string name="settings_credits_crosspost_icon_summary">"Freepikにより作成されたアイコンを使用しています - www.flaticon.com"</string>
     <string name="settings_credits_thumbtack_icon_title">"画鋲アイコン"</string>
@@ -825,8 +815,6 @@ https://play.google.com/store/apps/details?id=ml.docilealligator.infinityforredd
     <string name="delete_multi_reddit">"カスタムフィードを削除"</string>
 
     <!-- Fuzzy -->
-    <string name="n_awards">"%1$d個のアワード"</string>
-    <string name="one_award">"1個のアワード"</string>
     <string name="report">"通報"</string>
     <string name="reporting">"通報しています"</string>
     <string name="report_successful">"通報しました"</string>
@@ -841,7 +829,6 @@ https://play.google.com/store/apps/details?id=ml.docilealligator.infinityforredd
     <string name="notifications">"通知"</string>
     <string name="messages">"メッセージ"</string>
     <string name="message">"メッセージ"</string>
-    <string name="fetch_gfycat_video_failed">"Gfycat動画を取得できませんでした"</string>
     <string name="fetch_redgifs_video_failed">"Redgifs動画を取得できませんでした"</string>
     <string name="fetching_video_info_please_wait">"動画の情報を取得中です。少々お待ちください。"</string>
     <string name="error_fetching_imgur_media">"画像をロードできませんでした"</string>
@@ -946,14 +933,8 @@ https://play.google.com/store/apps/details?id=ml.docilealligator.infinityforredd
     <string name="refresh">"更新"</string>
     <string name="change_sort_type">"並べ替えを変更"</string>
     <string name="change_post_layout">"表示レイアウトを変更"</string>
-    <string name="give_award_dialog_title">"アワードを贈りますか？"</string>
-    <string name="anonymous">"匿名"</string>
 
     <!-- Fuzzy -->
-    <string name="give_award_error_message">"コード: %1$d/
-メッセージ: %2$s"</string>
-    <string name="give_award_success">"アワードを贈りました"</string>
-    <string name="give_award_failed">"失敗しました"</string>
     <string name="warning">"警告"</string>
     <string name="this_is_a_nsfw_subreddit">"このSubredditはNSFWです"</string>
     <string name="this_user_has_nsfw_content">"このユーザーはNSFWの投稿を含んでいます"</string>
@@ -1033,7 +1014,7 @@ https://play.google.com/store/apps/details?id=ml.docilealligator.infinityforredd
     <string name="min_awards_hint">"最小のアワード数 (-1: 制限なし)"</string>
     <string name="duplicate_post_filter_dialog_title">"「%1$s 」は既に存在します"</string>
     <string name="duplicate_post_filter_dialog_message">"上書きしますか？"</string>
-    <string name="apply_post_filter_to">"適用"</string>
+    <string name="apply_to">"適用"</string>
     <string name="post_filter_usage_home">"ホーム"</string>
     <string name="post_filter_usage_subreddit_all">"Subreddit"</string>
     <string name="post_filter_usage_user">"ユーザー: %1$s"</string>
@@ -1050,7 +1031,6 @@ https://play.google.com/store/apps/details?id=ml.docilealligator.infinityforredd
     <string name="choose_a_user">"ユーザーを選択"</string>
     <string name="settings_click_to_show_media_in_gallery_layout">"クリックしてギャラリービューでメディアを見る"</string>
     <string name="settings_hide_post_type">"投稿の種類を非表示にする"</string>
-    <string name="settings_hide_the_number_of_awards">"Awardsの数を非表示にする"</string>
     <string name="settings_hide_the_number_of_comments">"コメント数を非表示にする"</string>
     <string name="post_layout_gallery">"ギャラリーレイアウト"</string>
     <string name="post_layout_card_2">"カードレイアウト2"</string>
